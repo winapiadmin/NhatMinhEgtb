@@ -120,8 +120,8 @@ namespace egtb {
 #define DARK                            8
 #define LIGHT                           16
 
-#define B                               0
-#define W                               1
+constexpr int B                       = 0;
+constexpr int W                       = 1;
 
 #define EGTB_SMART_MODE_THRESHOLD       10L * 1024 * 1024L
 
